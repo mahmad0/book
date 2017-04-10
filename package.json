@@ -1,6 +1,7 @@
 {
   "name": "react-book",
   "version": "0.1.0",
+  "homepage": "https://mahmad.github.io/book",
   "private": true,
   "dependencies": {
     "react": "^15.5.3",
