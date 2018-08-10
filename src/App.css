@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e63f40;
+    color: #303131;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+div.quote-block {
+    margin: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div.details-block {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    height: 30vh;
+    width : 100%;
+    background-color: #303131;
+    color: #e63f40;
+    text-align: left;
+}
+
+div.random-block {
+    position: absolute;
+    right : 0;
+    bottom: 0;
+    height: 30vh;
+}
+
+h1.quote {
+    margin: center;
+    margin-left: 3vw;
+    width: 60vw;
+    font-size: 7vw;
+    font-weight: bold;
+    line-height: 17vh;
+    vertical-align: middle;
+}
+
+p.details {
+    margin-left : 5vw;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+span.sub-details {
+    color: white;
+}
+
+a.random {
+    text-decoration: none;
+    color : white;
+    font-size: 4vw;
+    margin-right : 2vw;
+}
