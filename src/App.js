@@ -55,7 +55,7 @@ class App extends Component {
             - {this.state.who} <span className="sub-details">{this.state.where}, {this.state.when}</span>
           </p>
           <div className="random-block">
-            <a className="random" href="/"><FontAwesomeIcon icon={faRandom}/></a>
+            <a className="random" href="."><FontAwesomeIcon icon={faRandom}/></a>
           </div>
         </div>
       </div>
