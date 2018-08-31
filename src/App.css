@@ -1,84 +1,103 @@
 html,
 body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 div.app {
-    background-color: #e63f40;
-    width: 100vw;
-    height: 100vh;
-    color: #303131;
-    font-family: 'Fjalla One', sans-serif;
+  background-color: #e63f40;
+  width: 100vw;
+  height: 100vh;
+  color: #303131;
+  font-family: "Fjalla One", sans-serif;
 }
 
 div.quote-block {
-    background-color: #e63f40;
-    text-align: left;
-    vertical-align: middle;
-    border-color: white;
-    border-width:  1px;
+  background-color: #e63f40;
+  text-align: left;
+  vertical-align: middle;
+  border-color: white;
+  border-width: 1px;
 }
 
 div.details-block {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-    background-color: #303131;
-    color: #e63f40;
-    text-align: left;
-    vertical-align: middle;
-    margin: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #303131;
+  color: #e63f40;
+  text-align: left;
+  vertical-align: middle;
+  margin: center;
 }
 
 div.random-block {
-    display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  vertical-align: middle;
+  margin: center;
 }
 
 h1.quote {
-    margin: center;
-    margin-left: 30px;
-    min-width: 70%;
-    max-width: 100%;
-    font-weight: bold;
-    vertical-align: middle;
+  margin: center;
+  margin-left: 30px;
+  min-width: 70%;
+  max-width: 100%;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 p.details {
-    margin-left: 50px;
-    font-size: 4em;
-    vertical-align: middle;
-    font-weight: bold;
+  margin-left: 50px;
+  font-size: 4em;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 span.sub-details {
-    color: white;
+  color: white;
 }
 
 a.random {
-    text-decoration: none;
-    color : white;
-    font-size: 4vw;
-    margin-right : 2vw;
+  text-decoration: none;
+  color: white;
+  font-size: 4vw;
+  margin-right: 2vw;
+}
+
+a.random:hover {
+  color: white;
 }
 
 @media screen and (max-width: 640px) {
-    h1.quote {
-        font-size: 4em;
-    }
-    p.details {
-        font-size: 3em;
-    }
+  h1.quote {
+    font-size: 4em;
+  }
+  p.details {
+    font-size: 3em;
+  }
+  a.random {
+    font-size: 3em;
+    width: 100%;
+    height: 150px;
+  }
 }
 
 @media screen and (min-width: 640px) {
-    h1.quote {
-        font-size: 7em;
-    }
-    p.details {
-        font-size: 4em;
-    }
+  h1.quote {
+    font-size: 7em;
+  }
+  p.details {
+    font-size: 4em;
+  }
+  a.random {
+    font-size: 6em;
+    width: 100%;
+    height: 150px;
+  }
 }
