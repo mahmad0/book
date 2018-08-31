@@ -46,7 +46,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="app">
         <div className="quote-block">
           <h1 className="quote">{this.state.quote}</h1>
         </div>
